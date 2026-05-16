@@ -90,7 +90,7 @@ fun RestaurantDetailScreen(
                                     ).show()},
                                             colors = ButtonDefaults.buttonColors(
                                             containerColor = Color.Cyan)) {
-                                        Text(text = "+ Agreagr al carrito",
+                                        Text(text = "+ Agregar al carrito",
                                             fontWeight = FontWeight.Bold,)
                                     }
                                 }

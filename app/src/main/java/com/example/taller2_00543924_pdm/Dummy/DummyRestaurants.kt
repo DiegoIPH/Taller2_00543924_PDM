@@ -165,16 +165,97 @@ val dummyRestaurant = listOf(
                 imageUrl = "https://lh3.googleusercontent.com/TxD94qPVO6PzHuQWjtc8MPYZryYjhQ1Q2SEWaxq0lKWpPqEarFMFR5kx-54zdG3ZiD6EQXmpdJ2nZCFPlaGGGM-f-ulvntUz8Ck=s0"
             ),
             Dish(
-                id = 503,
+                id = 603,
                 name = "Pizza Cuatro Quesos",
                 description = "La favorita de Bonfie.",
                 imageUrl = "https://www.novachef.es/media/images/pizza-cuatro-quesos.jpg"
             ),
             Dish(
-                id = 504,
+                id = 604,
                 name = "Pizza Cuatro Estaciones",
                 description = "Cada estación representa a una animatrónica.",
                 imageUrl = "https://i.blogs.es/2b355a/pizza-4-estaciones/1200_900.jpg"
+            )
+        )
+    ),
+    Restaurant(
+        id = 7,
+        name = "Charlyie Boy",
+        description = "Una nueva y deliciosa opción en pizzas, hamburguesas, y carnes a la parrilla.",
+        imageUrl = "https://comelongo.com/wp-content/uploads/2022/02/16730120_970549149713087_7374141266289736091_n.jpg",
+        categories = listOf("Pizzas", "Bar y Restaurante", "Hamburguesas"),
+        menu = listOf(
+            Dish(
+                id = 701,
+                name = "Hamburguesa de hongos Alfredo Parmesano",
+                description = "Deliciosa carne a la parrilla gratinada con queso mozzarella, hongos frescos salteados con salsa Alfredo.",
+                imageUrl = "https://scontent.fsal7-1.fna.fbcdn.net/v/t51.82787-15/670869257_18395268076155021_9184621539636600482_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pmPjjD3G3N8Q7kNvwF2pOWL&_nc_oc=AdqW2GOKndwui8VenDhGqzb4mhlaMTZ1NhF99iTpNK_BAe1B-0Gw6d8UIK-T4LGZu4Q&_nc_zt=23&_nc_ht=scontent.fsal7-1.fna&_nc_gid=3pUZB3Z-4P8PbFMio6Tntg&_nc_ss=7b2a8&oh=00_Af4-3N0C-vaWWmBZM3baEqMWCFcYj0ox0dOtPHxdOdFD7A&oe=6A0EA92A"
+            ),
+            Dish(
+                id = 702,
+                name = "Pizza Barca",
+                description = "camarones y jamón serrano Una combinación gourmet que solo encuentras en Charlie Boy.",
+                imageUrl = "https://scontent.fsal7-1.fna.fbcdn.net/v/t51.82787-15/504355427_18356287144155021_4080600395774093402_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=HWo-N0craecQ7kNvwEu6tzA&_nc_oc=AdqoOheE3im3UVAJlXkNccXQzgvlKd4iWUCBWmEDfWLsWiN5fD-Yr9hzu8vjjExDeu8&_nc_zt=23&_nc_ht=scontent.fsal7-1.fna&_nc_gid=YFay3hN3lgTn65W2GAEQow&_nc_ss=7b2a8&oh=00_Af5ASOycrisC0EpWWOPp5Z9W5ITHqx9Ugrvf4ot33bXB1w&oe=6A0EA601"
+            ),
+            Dish(
+                id = 703,
+                name = "Hamburguesa jalapeña",
+                description = "Para los amantes del picante.",
+                imageUrl = "https://scontent.fsal7-1.fna.fbcdn.net/v/t51.75761-15/501058623_18352312021155021_2358194663700823152_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=8Avc4D0BN_QQ7kNvwHZlDS-&_nc_oc=AdrPduX_FKh4KkWfGM3yON0AON-b7Cq1Dais4AQyeGOMxBMzla1Y5OXnmGC1yHAj4XY&_nc_zt=23&_nc_ht=scontent.fsal7-1.fna&_nc_gid=np-pKTFKC9KkLXeD9XVlqg&_nc_ss=7b2a8&oh=00_Af6y-aqtmUIYOxs2LeKG28DHmF4YFZ0GmPzRcWXYudijEQ&oe=6A0EA644"
+            )
+        )
+    ),
+    Restaurant(
+        id = 8,
+        name = "Little Caesar",
+        description = "Lista y para llevar",
+        imageUrl = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgPZqvMtHK8WQi4U-xCN2aEzoYf7RfFfb3kw&s",
+        categories = listOf("Pizzas"),
+        menu = listOf(
+            Dish(
+                id = 801,
+                name = "Pizza de pepperoni",
+                description = "Pizza de pepperoni, 8 slices, lista para llevar.",
+                imageUrl = "https://pizzapizza.com.sv/wp-content/uploads/2021/01/Pepperoni.jpg"
+            ),
+            Dish(
+                id = 802,
+                name = "Pizza de jamón",
+                description = "Pizza de jamón, 8 slices, lista para llevar.",
+                imageUrl = "https://pizzapizza.com.sv/wp-content/uploads/2021/01/Jamon.jpg"
+            ),
+            Dish(
+                id = 803,
+                name = "Pizza tres carnes",
+                description = "Pizza con Pepperoni, salchica italiana y bacon, lista para llevar.",
+                imageUrl = "https://littlecaesarspr.com/wp-content/themes/little2/img/Menu/3-meat.webp"
+            )
+        )
+    ),
+    Restaurant(
+        id = 9,
+        name = "McDonnalds",
+        description = "Me encanta",
+        imageUrl = "https://d23ejp5ygwd43r.cloudfront.net/assets/images/store/san-salvador/XjyMRLon3X3SWNDkM1t4Sb4HbHXmKc8vkq63HmaX.png",
+        categories = listOf("Hamburguesas"),
+        menu = listOf(
+            Dish(
+                id = 901,
+                name = "McCheese",
+                description = "Acompañada de papas fritas, salsa de tomate y bebida.",
+                imageUrl = "https://s7d1.scene7.com/is/image/mcdonalds/DC_202201_0007-005_QuarterPounderwithCheese_1564x1564-1:nutrition-calculator-tile?resmode=sharp2"
+            ),
+            Dish(
+                id = 902,
+                name = "Big Mac",
+                description = "La mejor opción para los más exigentes.",
+                imageUrl = "https://www.mac-menus.com/wp-content/uploads/2025/06/big-mac-combo-meal-685e3996377f7.webp"
+            ),
+            Dish(
+                id = 903,
+                name = "McNuggets",
+                description = "No todo se trata de hamburguesas Spiderman.",
+                imageUrl = "https://mcdonalds.com.sv/imagen/menu-products/1640816959_6.%20mcnuggets%20.jpg"
             )
         )
     )
