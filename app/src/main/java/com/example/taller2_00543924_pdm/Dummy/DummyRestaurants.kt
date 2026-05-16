@@ -156,7 +156,7 @@ val dummyRestaurant = listOf(
                 id = 601,
                 name = "Pizza de Pepperoni",
                 description = "Recién hecha y con ingredientes frescos.",
-                imageUrl = "https://www.saborusa.com/wp-content/uploads/2019/12/origen-de-la-pizza-1.jpg"
+                imageUrl = "https://www.sortirambnens.com/wp-content/uploads/2019/02/pizza-de-peperoni.jpg"
             ),
             Dish(
                 id = 602,
